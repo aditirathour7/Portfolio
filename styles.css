@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark black background */
+    color: #ddd;
+}
+
+nav {
+    background-color: #1e1e1e; /* Dark gray navigation background */
+    color: #a0a0a0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a0a0a0;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00bcd4; /* Aqua color on hover */
+}
+
+header, section {
+    padding: 100px 0;
+    text-align: center;
+    height: 800px;
+}
+
+header {
+    background-color: #1e1e1e; /* Dark gray header background */
+}
+
+#about{
+    text-align: left;
+}
+
+#about h1{
+    color: #00bcd4;
+    font-size: 5em;
+    margin-left: 2rem;
+}
+
+#about p{
+    max-width: 1000px;
+    font-size: 1.5em;
+    margin-left: 2rem;
+}
+
+#Akshat{
+    position: absolute;
+    right: 1%;
+    top: 24%;
+    border-radius: 50%;
+    border: 2.5px solid #00bcd4;
+}
+
+section {
+    background-color: #121212; /* Dark black section background */
+}
+
+/* Styling for the "Hire Me" button */
+.hire-button {
+    background-color: #00bcd4; /* Aqua button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+
+.hire-button:hover {
+    background-color: #008ba3; /* Darker aqua color on hover */
+}
+#skills{
+    text-align: center;
+}
+#skills h2{
+    color: #00bcd4;
+    font-size: 4em;
+}
+/* #skills ul{
+    display: flex;
+} */
+#skills ul li{
+    font-size: 1.5em;
+}
+#projects{
+    text-align: center;
+}
+#projects h2{
+    color: #00bcd4;
+    font-size: 4em;
+}
+#projects ul li{
+    font-size: 1.5em
+}
+#resume{
+    text-align: center;
+}
+#resume h2{
+    color: #00bcd4;
+    font-size: 4em;
+}
+/*#rsme{
+    position: absolute;
+    right: 15%;
+    top: 1%;
+}*/
+#contact{
+    text-align: center;
+}
+#contact h2{
+    color: #00bcd4;
+    font-size: 4em;
+}
+#contact ul li{
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #1e1e1e; /* Dark gray footer background */
+    color: #a0a0a0;
+    text-align: center;
+    padding: 10px 0;
+}
